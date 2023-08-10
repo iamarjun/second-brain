@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Android/Activity Lifecycle.md",
+                "file": "Android/SOLID.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/Activity Lifecycle.md",
+                "file": "Android/SOLID.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Android/Activity Lifecycle.md",
+                "file": "Android/SOLID.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Android/Activity Lifecycle.md"
+                "file": "Android/SOLID.md"
               }
             }
           },
@@ -165,8 +165,10 @@
   },
   "active": "66bdcddead188b95",
   "lastOpenFiles": [
-    "Android/Pasted image 20230616145749.png",
     "Android/SOLID.md",
+    "Android/Pasted image 20230616145749.png",
+    "Android/Activity Lifecycle.md",
+    "README.md",
     "Android/Multithreading.md",
     "Android/Coroutines.md",
     "Android/Untitled",
@@ -177,7 +179,6 @@
     "Design Pattern/Intro.md",
     "Design Pattern",
     "Android/Fragment Lifecycle.md",
-    "Android/Activity Lifecycle.md",
     "Market/Type of Order.md",
     "Pasted image 20230709105618.png",
     "Market/Pasted image 20230706204554.png",
