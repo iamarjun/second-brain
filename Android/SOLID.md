@@ -13,5 +13,3 @@
 2. You should be able to describe what each class does without saying "and"
 3. Each class should have only one reason to change
 4. Responsibility = Reason to change
-
-Eg. 
