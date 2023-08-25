@@ -44,7 +44,7 @@ static final class NonConfigurationInstances {
     ViewModelStore viewModelStore;
 }
 ``` 
-9. The `getLastNonConfigurationInstance` object is retrieved from the `onRetainNonConfigurationInstance` overridden method.
+
 ```
 public final Object onRetainNonConfigurationInstance() {
     // Maintain backward compatibility.
@@ -71,7 +71,7 @@ public final Object onRetainNonConfigurationInstance() {
     return nci;
 }
 ```
-10. `onRetainNonConfigurationInstance` method is called by the `Activity` class's `Activity#retainNonConfigurationInstances` method.
+10. `onRetainNonConfigurationInstance` method is called by the  `Activity#retainNonConfigurationInstances` method.
 ```
     NonConfigurationInstances retainNonConfigurationInstances() {
         Object activity = onRetainNonConfigurationInstance();
@@ -125,3 +125,5 @@ getLifecycle().addObserver(new LifecycleEventObserver() {
     }
 });
 ```
+onCreate
+onAt

@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Android/How ViewModel Survives Config Changes.md",
+                "file": "Engineering/SOLID.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/How ViewModel Survives Config Changes.md",
+                "file": "Engineering/SOLID.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Android/How ViewModel Survives Config Changes.md",
+                "file": "Engineering/SOLID.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Android/How ViewModel Survives Config Changes.md"
+                "file": "Engineering/SOLID.md"
               }
             }
           },
@@ -178,17 +178,18 @@
   },
   "active": "f4463e966e666906",
   "lastOpenFiles": [
-    "Engineering/GoLang.md",
-    "Android/How ViewModel Survives Config Changes.md",
-    "Engineering/Clean Architecture.md",
     "Engineering/Multithreading.md",
+    "Engineering/GoLang.md",
+    "Engineering/Clean Architecture.md",
+    "Android/Coroutines.md",
+    "Android/Fragment Lifecycle.md",
+    "Android/How ViewModel Survives Config Changes.md",
     "Android/Pasted image 20230709105618.png",
     "Engineering",
     "Engineering/SOLID.md",
     "Android/Pasted image 20230616145749.png",
     "Android/Activity Lifecycle.md",
     "README.md",
-    "Android/Coroutines.md",
     "Android/Untitled",
     "Android/Pasted image 20230723114326.png",
     "Android/Pasted image 20230723112231.png",
@@ -196,7 +197,6 @@
     "Traders.md",
     "Engineering/Design Pattern/Intro.md",
     "Engineering/Design Pattern",
-    "Android/Fragment Lifecycle.md",
     "Market/Type of Order.md",
     "Market/Pasted image 20230706204554.png",
     "Market/Pasted image 20230706204059.png",
