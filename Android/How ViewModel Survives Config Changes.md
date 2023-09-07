@@ -125,5 +125,3 @@ getLifecycle().addObserver(new LifecycleEventObserver() {
     }
 });
 ```
-onCreate
-onAt
