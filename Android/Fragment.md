@@ -27,6 +27,19 @@ onDetach
 
 ## Backstack
 
+1. Backstack is a stack of fragment transactions and not fragments itself.
+2. Add, Remove, Replace all are considered as transactions.
+3. A transaction is only recorded once we call commit().
+4. This is also considered as one transaction.
+```
+supportFragmentManager.beginTransaction()  
+    .add(R.id.container, Fragment1())  
+    .add(R.id.container, Fragment2())  
+    .add(R.id.container, Fragment3())  
+    .commit()
+```
+5. popBackstack() is used to reverse the transaction.
+
 With backstack - backstack entry count is increased with every transaction
 	1. Add - Adds fragments on top of one another.
 	2. Remove - Removes the particular fragment.
