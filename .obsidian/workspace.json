@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Android/Fragment.md",
+                "file": "Android/MultiThreading Basics.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/Fragment.md",
+                "file": "Android/MultiThreading Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Android/Fragment.md",
+                "file": "Android/MultiThreading Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Android/Fragment.md"
+                "file": "Android/MultiThreading Basics.md"
               }
             }
           },
@@ -168,6 +168,16 @@
             "state": {
               "type": "git-view",
               "state": {}
+            }
+          },
+          {
+            "id": "f7947e942d3c1e92",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
             }
           }
         ],
@@ -190,10 +200,12 @@
   },
   "active": "167b54db9426348e",
   "lastOpenFiles": [
+    "Android/Android Check List.md",
+    "Android/MultiThreading Basics.md",
+    "Android/Fragment.md",
     "Pasted image 20230913100048.png",
     "Pasted image 20230913095754.png",
     "Android/How ViewModel Survives Config Changes.md",
-    "Android/Fragment.md",
     "Android/Activity Lifecycle.md",
     "Engineering/SOLID.md",
     "Engineering/Multithreading.md",
@@ -215,7 +227,6 @@
     "Market/Pasted image 20230706204554.png",
     "Market/Pasted image 20230706204059.png",
     "Market/Pasted image 20230706203507.png",
-    "Market/Pasted image 20230706203048.png",
     "Market",
     "DSA/Hash Maps.md",
     "2023-03-08.md",
