@@ -7,7 +7,7 @@
 		3. NavBackStackEntry
 5. `ViewModelStore` is  a class which stores a `HashMap<String, ViewModel>`
 6. The implementation of `ViewModelStoreOwner#getViewModelStore`
-```
+```kotlin
 @NonNull
 @Override
 public ViewModelStore getViewModelStore() {
@@ -21,7 +21,7 @@ public ViewModelStore getViewModelStore() {
 ```
 
 7. It's ensured that `mViewModelStore` is not null 
-```
+```kotlin
 void ensureViewModelStore() {
     if (mViewModelStore == null) {
         NonConfigurationInstances nc =
@@ -38,14 +38,14 @@ void ensureViewModelStore() {
 ```
 
 8. `getLastNonConfigurationInstance` returns an instance of `NonConfigurationInstance` static class defined in the `ComponentActivity` which stores the viewModelStore.
-```
+```kotlin
 static final class NonConfigurationInstances {
     Object custom;
     ViewModelStore viewModelStore;
 }
 ``` 
 
-```
+```kotlin
 public final Object onRetainNonConfigurationInstance() {
     // Maintain backward compatibility.
     Object custom = onRetainCustomNonConfigurationInstance();
@@ -72,7 +72,7 @@ public final Object onRetainNonConfigurationInstance() {
 }
 ```
 10. `onRetainNonConfigurationInstance` method is called by the  `Activity#retainNonConfigurationInstances` method.
-```
+```kotlin
     NonConfigurationInstances retainNonConfigurationInstances() {
         Object activity = onRetainNonConfigurationInstance();
         ...
@@ -90,7 +90,7 @@ public final Object onRetainNonConfigurationInstance() {
     }
 ```
 11. Activity class also has one static inner class `NonConfigurationInstances` 
-```
+```kotlin
     static final class NonConfigurationInstances {
         Object activity;
         HashMap<String, Object> children;
@@ -110,7 +110,7 @@ public final Object onRetainNonConfigurationInstance() {
 	4. ActivityThread
 16. When an activity is restored, the `Activity#onAttach` method is called which has a `Activity#NonConfigurationInstances` as a parameter, this is retrieved from `ActivityClientRecord`, the `mLastNonConfigurationInstance` has a member called `activity` which is an instance of `ComponentActivity#NonConfigurationInstances` which finally contains our viewModeStore.
 
-```
+```kotlin
 getLifecycle().addObserver(new LifecycleEventObserver() {
     @Override
     public void onStateChanged(@NonNull LifecycleOwner source,

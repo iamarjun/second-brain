@@ -63,7 +63,7 @@ Any changes to a `CoroutineContext` creates a new  `CoroutineScope`
 
 It is a technique which allows to take the advantage of concurrent execution to speed up the algorithm.
 
-```
+``` kotlin
 fun wrongUseOfCoroutines() = runBlocking {  
     var totalIterations = 0  
     withContext(Dispatchers.Default) {  
@@ -82,7 +82,7 @@ fun wrongUseOfCoroutines() = runBlocking {
 }
 ```
 
-```
+``` kotlin
 fun atomicityProblemDemo() = runBlocking {  
     var totalIterations = 0  
     withContext(Dispatchers.Default) {  
@@ -112,7 +112,7 @@ CancellationException
 
 
 If a coroutine encounters exception other than `CancellationException` it cancels the parent with that exception, this is used to provide a stable hierarchies for structured concurrency. eg.
-```
+```kotlin
 @Test  
 fun uncaughtExceptionInConcurrentCoroutines() {  
     runBlocking {  
@@ -141,7 +141,7 @@ Logs
 
 
 When a coroutine is cancelled using `Job.cancel()`, it terminates, but it does not cancel its parent. eg.
-```
+```kotlin
 @Test  
 fun uncaughtExceptionInConcurrentCoroutines() {  
     runBlocking {  
@@ -174,7 +174,7 @@ SuperVisorJob
 
 One way to prevent cascading of exception in coroutines is to use a `supervisorJob()`
 
-```
+```kotlin
 @Test  
 fun uncaughtExceptionInConcurrentCoroutinesWithSupervisorJob() {  
     runBlocking {  
