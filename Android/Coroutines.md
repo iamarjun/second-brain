@@ -1,3 +1,7 @@
+- **Lightweight**: You can run many coroutines on a single thread due to support for [_suspension_](https://kotlinlang.org/docs/reference/coroutines/basics.html), which doesn't block the thread where the coroutine is running. Suspending saves memory over blocking while supporting many concurrent operations.
+- **Fewer memory leaks**: Use [_structured concurrency_](https://kotlinlang.org/docs/reference/coroutines/basics.html#structured-concurrency) to run operations within a scope.
+- **Built-in cancellation support**: [Cancellation](https://kotlinlang.org/docs/reference/coroutines/cancellation-and-timeouts.html) is propagated automatically through the running coroutine hierarchy.
+
 ## Scope Cancellation vs Scope's Children Cancellation
 
 **1. Scope Cancellation(scope.cancel())**
