@@ -1,0 +1,1 @@
+**Volatile** - The volatile keyword in Java is used to indicate that the value of a variable may be modified by multiple threads simultaneously. It ensures that the variable is always read from and written to the main memory, rather than from thread-specific caches, ensuring visibility across threads.
