@@ -13,7 +13,7 @@
 	3. ViewModel - Call usecases and map it to state
 
 Why use cases:
-1. Prevents ViewModel from getting to big/bloated.
+1. Prevents ViewModel from getting too big/bloated.
 2. Follow Single Responsibility.
 
 
