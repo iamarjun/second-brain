@@ -117,6 +117,6 @@ GC can handle circular references as well, they are considered not reachable.
 - return from run() in response to an internal error.
 - return from run() in response to an externally set flag.
 - return from run() in response to interruption.
-- 
+
 
 
