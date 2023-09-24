@@ -89,3 +89,34 @@ Thread thread = new Thread(runnable);
 
 thread.start();
 ```
+
+### Garbage Collector
+
+System process which automatically reclaimed memory by discarding objects that are no longer in use.
+
+**Object Reachability**
+
+![[Whiteboard 24-Sept-2023_1-1.jpg]]
+Eg: 
+
+:MainActivity -> :MyObject1 -> MyObject2
+
+- is MyObject2 reachable?
+- is MyObject2 a root - NO
+- is MyObject2 referenced - YES
+- is MyObject1 a root? - NO
+- is MyObject1 referenced - YES
+- is MainActivity reachable?
+
+Therefore is MainActivity is reachable then MyObject1 and MyObject2 are also reachable.
+
+GC can handle circular references as well, they are considered not reachable.
+
+###  Thread Termination
+- return from run() after successful execution.
+- return from run() in response to an internal error.
+- return from run() in response to an externally set flag.
+- return from run() in response to interruption.
+- 
+
+
