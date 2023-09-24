@@ -177,6 +177,7 @@
   "lastOpenFiles": [
     "Android/Coroutines.md",
     "Engineering/Multithreading.md",
+    "Android/MultiThreading Basics.md",
     "Android/Java.md",
     "Engineering/Clean Architecture.md",
     "Engineering/Design Pattern/Intro.md",
@@ -190,7 +191,6 @@
     "Android/Kotlin.md",
     "Android/Activity Lifecycle.md",
     "DSA/Hash Maps.md",
-    "Android/MultiThreading Basics.md",
     "Android/How ViewModel Survives Config Changes.md",
     "Pasted image 20230918090731.png",
     "Pasted image 20230913100048.png",
