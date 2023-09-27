@@ -119,4 +119,7 @@ GC can handle circular references as well, they are considered not reachable.
 - return from run() in response to interruption.
 
 
-
+### Thread Safety Concerns
+- Visibility - Multiple threads access shared state/variable.
+- Atomicity - When multiple threads perform operation on some state with scheduled operation.
+- 
