@@ -31,11 +31,11 @@ Responsible for dispatching coroutines to the underlying thread
 
 **2. Default**
 Thread pool with max thread = Max(2, NUM_OF_CPU_CORES)
-Used for computation intensive tasks
+Used for CPU bound work.
 
 **3. IO**
 Thread pool with max thread = Max(64, NUM_OF_CPU_CORES), can be increase by adjusting system properties.
-Used of IO tasks which are mostly "waiting"
+Used for IO bound work.
 
 
 ## NonCancellable
