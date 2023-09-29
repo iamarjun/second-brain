@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3edbb1994ddacdef",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.14"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,7 +184,7 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "e3ebb2df441148d6",
+  "active": "3edbb1994ddacdef",
   "lastOpenFiles": [
     "Android/How ViewModel Survives Config Changes.md",
     "Engineering/Multithreading.md",
