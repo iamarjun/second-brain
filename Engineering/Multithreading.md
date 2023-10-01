@@ -120,9 +120,10 @@ GC can handle circular references as well, they are considered not reachable.
 
 
 ### Thread Safety Concerns
-- Visibility - Multiple threads access shared state/variable.
-- Atomicity - When multiple threads perform operation on some state with scheduled operation.
+- **Visibility** - Multiple threads access shared state/variable.
+- **Atomicity** - When multiple threads perform operation on some state with scheduled operation.
 	- Thread Synchronisation
 	- Immutability
+- **Happens Before Relationship** - 
 
 **Final** - final variables are thread safe according to java memory model.
