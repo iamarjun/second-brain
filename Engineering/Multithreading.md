@@ -124,6 +124,6 @@ GC can handle circular references as well, they are considered not reachable.
 - **Atomicity** - When multiple threads perform operation on some state with scheduled operation.
 	- Thread Synchronisation
 	- Immutability
-- **Happens Before Relationship** - 
+- **Happens Before Rule** - 
 
 **Final** - final variables are thread safe according to java memory model.
